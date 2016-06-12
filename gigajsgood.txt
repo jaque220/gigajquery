@@ -1,0 +1,62 @@
+<html>
+<head>
+
+    <!-- This is where you include dependencies -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <link href='https://fonts.googleapis.com/css?family=Bangers|Dancing+Script:400,700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="Stylesheet1.css">
+    <style>
+        /*This is where CSS goes*/
+    </style>
+</head>
+<body>
+    <h1>"CLEVELAND CAVALIERS!!!"</h1>
+    <p>Get That Weak Stuff Outta Here!!!</p>
+    <div class="button-container;">
+    <a href="javascript:pet.feed()" class="btn btn-lg btn-success">Throw the hammer down!!</a>
+    <a href="javascript:pet.play()" class="btn btn-lg">RAWRRRRRRR!!!!!</a>
+    <a href="javascript:pet.sleep()" class="btn btn-lg">All for one! One for all!</a>
+    </div>
+    <div id="coolman">
+    <img src='https://s-media-cache-ak0.pinimg.com/236x/02/a3/81/02a3814644226867436befe07e3481f9.jpg'>
+    </div>
+
+    <div style="margin-top:5px;">
+        
+        <img src="http://i.cdn.turner.com/drp/nba/cavaliers/sites/default/files/styles/story_main_photo/public/141024-scoreboard-758.jpg?itok=9ygK_5jc">
+   </div>
+
+    <!-- This is where your content goes -->
+    <!-- Your content provides your page's structure -->
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+    <script>
+        var pet={
+            hunger: 0, 
+            happiness: 500,
+            energy: 500,
+            feed: function () { this.hunger += 3; this.energy + -1; console.log(pet); },
+            sleep: function () { this.energy += 3; this.hunger + -1; console.log(pet); },
+            play: function () { this.happiness += 3; this.energy + -2; console.log(pet); },
+            }
+       
+   </script>
+</body>
+</html>
+<!----USE THIS SECTION FOR CHANGING EVERY SECOND BY 5!!!!! PLACE IN CORRECT AREA
+var count=30;
+
+var counter=setInterval(timer, 1000); //1000 will  run it every 1 second
+
+function timer()
+{
+  count=count-1;
+  if (count <= 0)
+  {
+     clearInterval(counter);
+     //counter ended, do something here
+     return;
+  }
+
+  //Do code for showing the number of seconds here

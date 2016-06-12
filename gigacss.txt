@@ -1,0 +1,36 @@
+body{
+    background-image: url("http://i.cdn.turner.com/drp/nba/cavaliers/sites/default/files/styles/story_main_photo/public/141024-scoreboard-758.jpg?itok=9ygK_5jc");
+    background-size: cover;
+    overflow: scroll;
+}
+img{
+    align: center;
+}
+h1{                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      
+    border: 3px groove red;
+    text-align: center;
+    font-size: 40px;
+    font-family: "Dancing Script";
+    color: red;
+    background-color: gold;
+    margin-top: 10px;
+}
+p{
+    font-family: "Dancing script";
+    text-align: center;
+    background-color: gold;
+    border: 2px dashed black;
+}
+.btn{
+    color: gold;
+    background-color: red;
+    font-family: "Bangers";
+    text-align: center;
+    
+}
+.button-container{
+    margin-top: 5px;
+}
+div {
+    text-align: center;
+}
